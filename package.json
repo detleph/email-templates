@@ -1,0 +1,27 @@
+{
+  "name": "email-templates",
+  "version": "1.0.0",
+  "description": "email templates",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/detleph/email-templates.git"
+  },
+  "author": "OmengU",
+  "bugs": {
+    "url": "https://github.com/detleph/email-templates/issues"
+  },
+  "homepage": "https://github.com/detleph/email-templates#readme",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "pretty-quick": "^3.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx pretty-quick --staged"
+      }
+    }
+}
