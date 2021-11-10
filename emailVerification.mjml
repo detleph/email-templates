@@ -1,0 +1,40 @@
+<mjml>
+    <mj-head>
+        <mj-class name="primary" color="#FF6565"/>
+        <mj-style>
+            @font-face {
+                font-family: Nunito;
+                src: url(https://fonts.gstatic.com/s/nunito/v16/XRXV3I6Li01BKofINeaB.woff2)
+                format('truetype');
+            } 
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="white">
+        <mj-section padding-top="20%">
+        </mj-section>
+        <mj-wrapper border="1px solid black" border-radius="33px" background-color="white" >
+            <mj-section>
+                <mj-column width="100%">
+                    
+                </mj-column>
+            </mj-section>
+        </mj-wrapper>
+        <mj-section>
+            <mj-column>
+               <mj-text align="left" padding-left="10%" font-family="Nunito">
+                   <a href="#" target="_blank">Impressum</a>
+               </mj-text> 
+            </mj-column>
+            <mj-column>
+                <mj-text align="center" font-family="Nunito">
+                    <a href="#" target="_blank">Kontakt</a>
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-text align="right" font-family="Nunito">
+                    <a href="#" target="_blank">Datenschutz</a>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+    </mj-body>
+</mjml>
