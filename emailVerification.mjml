@@ -1,6 +1,8 @@
 <mjml>
     <mj-head>
-        <mj-class name="primary" color="#FF6565"/>
+        <mj-attributes>
+             <mj-class name="primary" background-color="#FF6565"/>
+        </mj-attributes>
         <mj-style>
             @font-face {
                 font-family: Nunito;
@@ -10,28 +12,49 @@
         </mj-style>
     </mj-head>
     <mj-body background-color="white">
-        <mj-section padding-top="20%">
-        </mj-section>
-        <mj-wrapper border="1px solid black" border-radius="33px" background-color="white" >
-            <mj-section>
-                <mj-column width="100%">
-                    
+        <mj-wrapper padding-right="20px" padding-left="20px" padding-top="7%">
+            <mj-section border-right="2px solid #B0B0B0" border-top="2px solid #B0B0B0" border-left="2px solid #B0B0B0" border-radius="33px">
+                <mj-column>
+                    <mj-image src="#" alt="detleph" align="center" height="100px" width="100px" padding-bottom="0px" padding-top="0px"/>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-bottom="0px" padding-top="0px" border-left="2px solid #B0B0B0" border-right="2px solid #B0B0B0">
+                <mj-column>
+                    <mj-text align="center" font-family="Nunito, Sans-Serif" font-weight="bold" font-size="30px">
+                        Email Bestätigung
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-bottom="0px" border-left="2px solid #B0B0B0" border-right="2px solid #B0B0B0">
+                <mj-column padding-left="5%" padding-right="5%">
+                    <mj-text font-family="Nunito, Sans-Serif" align="center" font-size="18px">
+                        Bestätige deine Email-Adresse bevor du dich für das Sportevent 2022 anmelden kannst.
+                    </mj-text>
+                </mj-column>
+            </mj-section>
+            <mj-section padding-top="0px" border-right="2px solid #B0B0B0" border-left="2px solid #B0B0B0" border-bottom="2px solid #B0B0B0" border-radius="33px">
+                <mj-column>
+                    <mj-button font-size="16px" mj-class="primary" font-weight="bold" font-family="Nunito, Sans-Serif">
+                        <mj-text>
+                            <a href="#" target="_blank" style="color:white; text-decoration:none;">Email verifizieren</a>
+                        </mj-text>
+                    </mj-button>
                 </mj-column>
             </mj-section>
         </mj-wrapper>
-        <mj-section>
+        <mj-section padding-top="0px" padding-left="10%" padding-right="10%">
             <mj-column>
-               <mj-text align="left" padding-left="10%" font-family="Nunito">
+               <mj-text font-family="Nunito, Sans-Serif" align="center">
                    <a href="#" target="_blank">Impressum</a>
                </mj-text> 
             </mj-column>
             <mj-column>
-                <mj-text align="center" font-family="Nunito">
+                <mj-text font-family="Nunito, Sans-Serif" align="center">
                     <a href="#" target="_blank">Kontakt</a>
                 </mj-text>
             </mj-column>
             <mj-column>
-                <mj-text align="right" font-family="Nunito">
+                <mj-text font-family="Nunito, Sans-Serif" align="center">
                     <a href="#" target="_blank">Datenschutz</a>
                 </mj-text>
             </mj-column>
